@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>第三方开发者</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/allkiws.css"/>
+		<link rel="stylesheet" type="text/css" href="css/addmessage.css"/>
+		<script src="js/jquery-1.9.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/base.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="all_bag">
+			<header class="all_header"></header>
+			<div class="all_centent clearfix">
+				<ul class="zq_basic_title clearfix">
+					<li class="">1 基本信息<span></span></li>
+					<li class="zq_basic_this">2 信息登记 <span></span></li>
+					<li class="">3 加入成功</li>
+				</ul>
+				<div class="zq_addmessage">
+					
+					 <span style="color:red;" id="third_error_msg"> </span>
+					 <span style="color:red;" id="zq_error_msg" > </span>
+					 <span class="zq_show_titlephoto" id="img_error_msg"></span>
+					 
+					<span class="zq_add_tile">主体类型</span><br />
+					<ul class="zq_add_tab">
+						<li class="zq_genbase">企信用户</li><li class="add_tab_leti">第三方开发者</li>
+					</ul>
+					<span class="zq_add_show">此类型主要征对，想成为企信开放平台的第三方开发者。</span><br />
+					<span class="zq_add_show">第三方开发者发布的应用可以给企信指定的客户使用</span><br />
+					<span class="zq_add_tile zq_title_show">主体信息</span><br />
+					<span class="zq_user_show">第三方开发者名称</span><input type="text" id="third_user_name" class="zq_user_input" value="" /><br />
+					<span class="zq_user_show">负责人姓名</span><input type="text" id="third_responsible_name" class="zq_user_input" value="" /> 
+					<span class="zq_user_show">是否审核认证</span><span class="zq_tication zq_tication_tow">审核认证</span><span id="no_examine" class="zq_tication">不审核认证</span> <br />
+					<span class="zq_user_show zq_user_showtim">营业执照</span><a class="zq_photo_get" href="javascript:;" id="upload_word">点击上传</a><br />
+					<div class="zq_btn_get zq_btn_getthir">
+						<!--<a class="zq_add_skip bak" href="javascript:skipSuccess();">跳过信息登记</a>-->
+						<a class="bak" href="javascript:thirdSubmit();">完成</a>
+					</div>
+				</div>
+				<div class="zq_photo_upload">
+					<span class="zq_upload_title">上传营业执照<a class="zq_upload_cancel " href="javascript:;"></a></span>
+					<ul class="upload_tab">
+						<li class="upload_tab_this">上传营业执照</li>
+						<li class="">确认</li>
+					</ul>
+					<div class="zq_upload_tabto" >
+						<span class="show_tasbto">1、图片格式必须为：bmp、png、jpg、gif，不可大于5M</span><br />
+						<span class="show_tasbto">2、上传营业执照后无法修改</span><br />
+						<form action="" id="post_party_content_upload"   target='frameFile'  enctype="multipart/form-data" method="post">
+							<a class="upload_Get upload_Get_thir" href="javascript:;">选择图片
+					    	  <input id="post_party_content_upload_file" type="file" name="file"  onchange="_richText._upload(this)"/>
+					    	</a> <span style="color:red;margin-left:20px;display:none;" id="upload_max_error">图片大小超过5M,不能上传</span>
+						</form><br />
+						<span class="zq_tle_show zq_tle_showthir">上传的图片</span><br />
+						<img class="zq_upload_thirphoto" src="img/upload_example2.png" alt="" />
+						<div class="zq_photo_btn zq_photo_shase">
+							<a class=" zq_Get_confirm zq_cofirm_col bak" href="javascript:uploadNo();">取消</a><a class="zq_Get_confirm bak" href="javascript:uploadOk();">确定</a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<iframe id="frameFile" name="frameFile" style="display: none;"></iframe>
+			<div class="thisnull">
+				<!--空的!!顶替页脚的高度-->
+			</div>
+			<footer class="all_footer"></footer>
+		</div>
+	</body>
+	<script src="js/thirdparty.js" type="text/javascript" charset="utf-8"></script>
+</html>

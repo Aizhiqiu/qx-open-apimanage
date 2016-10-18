@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>用户详情</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/allkiws.css"/>
+		<link rel="stylesheet" type="text/css" href="css/usermanagement.css"/>
+		<script src="js/jquery-1.9.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/base.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/page.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="all_bag">
+			<header class="all_header"></header>
+			<div class="all_centent clearFloat">
+				<div class="zq_centent_left"></div>
+				<!--中间右侧内容-->
+				<div class="Usdes_con">
+					<p class="Usdes_header">
+						用户详情
+					</p>	
+					<div class="Usdes_search">
+						<div class="Usdes_innersearch">
+							<input type="text" id="use_name"  placeholder="用户名/所在公司"/>
+							<span id="search_user"></span>
+						</div>
+					</div>
+					<div class="Usdes_content">
+						<div class="Usdes_inner_content">
+							<!--左边列表-->
+							<div class="Usdes_Lcontent">
+								<div class="Usdes_Lcontent_head">
+									<span class="Usdes_headone"><i class="Usdes_headone_one"></i></span>
+									<span class="Usdes_headtwo">全选</span>
+									<span class="Usdes_headthree">加入黑名单</span>
+									<!--黑名单页面的时候出现下面按钮-->
+									<span class="Usdes_headthree_two">移出黑名单</span>
+									<span class="Usdes_headfour">
+										<i></i>
+										<em>
+											加入黑名单<br />
+											加入黑名单的用户将无法使用应用
+										</em>
+									</span>
+									<span class="Usdes_headfive"  style="display: none;">请选择用户</span>
+								</div>
+								<div class="Usdes_table_inner">
+									<div id="total_user">
+										<!-- <ul class="Usdes_table">
+											<li class="Usdes_tableone"></li>
+											<li class="Usdes_tabletwo"></li>
+											<li class="Usdes_tablethree">
+												<p class="Usdes_tablethree_one">用户姓名</p>
+												<p class="Usdes_tablethree_two blue">用户所在公司</p>
+												<p class="Usdes_tablethree_three blue">客户</p>
+											</li>
+										</ul> -->
+									</div>
+									
+									
+									<div class="zq_paging">
+<!-- 										<span class="zq_paging_up"></span><span class="zq_paging_num">1/6</span><span class="zq_paging_down"></span><input type="text" id="zq_paging_val" value=""><a class="zq_paging_get" href="javascriupt:;">跳转</a>
+ -->									</div>
+								</div>
+								
+								
+							</div>
+							<!--无内容-->
+							<!-- <div class="Usdes_nocentent" >
+								<p class="Usdes_nocentent_title">全部用户</p>
+								<p class="Usdes_nocentent_font">
+									暂无结果，请重新搜索或查看 &nbsp;
+									<span class="blue">全部用户</span>
+								</p>
+							</div> -->
+								
+							<!--右侧列表-->
+							<div class="Usdes_Rcontent">
+								<ul>
+									<li id="all_users" class="Usdes_Rcontent_current"></li>
+									<li id="client"></li>
+									<li id="licensees"></li>
+									<li id="blacklist_user"></li>
+								</ul>
+							</div>
+							
+						</div>
+						<!--加入黑名单弹窗-->
+							<div class="Usdes_blacklist">
+								<p class="Usdes_blacklist_head">加入黑名单</p>
+								<p class="Usdes_blacklist_text gray">加入黑名单的用户无法使用系统。</p>
+								<p class="Usdes_blacklist_font gray">确认加入黑名单？</p>	
+								<p class="Usdes_blacklist_btn">
+									<span class="Usdes_blacklist_Lbtn">确定</span>
+									<span class="Usdes_blacklist_Rbtn">取消</span>
+								</p>
+							</div>
+							<!--移出黑名单弹窗-->
+							<div class="Usdes_shiftout">
+								<p class="Usdes_shiftout_title">移出黑名单</p>
+								<p class="Usdes_shiftout_btn">
+									<span class="Usdes_shiftout_Lbtn">确定</span>
+									<span class="Usdes_shiftout_Rbtn">取消</span>
+								</p>
+							</div>
+					</div>
+					
+					
+					
+					
+					
+					
+					
+				</div>
+			</div>
+			<div class="thisnull">
+				<!--空的!!顶替页脚的高度-->
+			</div>
+			<footer class="all_footer"></footer>
+		</div>
+	</body>
+	<script src="js/userdetails.js" type="text/javascript" charset="utf-8"></script>
+</html>

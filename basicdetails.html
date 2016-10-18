@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>基本信息</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/allkiws.css"/>
+		<link rel="stylesheet" type="text/css" href="css/basicdetails.css"/>
+		<script src="js/jquery-1.9.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/base.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="all_bag">
+			<header class="all_header"></header>
+			<div class="all_centent clearfix">
+				<ul class="zq_basic_title clearfix">
+					<li class="zq_basic_this">1 基本信息</li>
+					<li class="zq_basic_tow">2 信息登记 <span></span></li>
+					<li>3 加入成功</li>
+				</ul>
+				<div class="zq_basic_centen_left">
+					<input type="text" id="user_mobile"  placeholder="请输入手机号"/><br />
+					<span class="title_red mobile_title">请输入正确手机号</span><span class="title_red"></span><br />
+					<input type="password" id="user_key" placeholder="请输入密码"/><br />
+					<span class="title_red pass_title">请输入6-12位密码</span><span class="title_red"></span><br />
+					<input type="password" id="user_key_get" placeholder="请输入确认密码"/><br />
+					<span class="title_red passwd_title">请输入确认密码</span><span class="title_red"></span><br />
+					<div class="zq_basic_code">
+						<input type="text" class="code_img" id="user_code" placeholder="请输入验证码"  value="" /> <a><img class="zq_code_img zq_code_asba" onclick="javascript:loadImgCode();" src="" alt="" /></a><a class="zq_code_testnet" href="javascript:loadImgCode();">换一张</a>
+						<br /><span class="title_red code_title">验证码错误,请重新输入</span><span class="title_red"></span><br />
+					</div>
+					<div class="zq_basic_code">
+						<input type="text" class="code_img" id="user_tel_code" placeholder="请输入短信验证码"  value="" /><span class="zq_code_get" onclick = "getPhoneCode();">验证码</span><span class="zq_code_ges">60S后重试</span>
+						<span class="title_red code_title_basic">验证码错误,请重新输入</span><span class="title_red"></span><br />
+					</div>
+					<div class="zq_protocol">
+						<span class="zq_protocol_get "></span>我同意并遵守<a class="zq_protocol_src" href="javascript:;">《企信公众平台服务协议》</a>
+					</div>
+					<div class="zq_protocol_Get">
+						<a class="zq_protocol_Getis bak" id="basic_submit" href="javascript:;">下一步</a>
+					</div>
+				</div>
+				<div class="zq_basic_centen_right">
+					已有企信账号？<a class="zq_index_logins" href="javascript:;">立即登录</a><br />
+					<span class="zq_mancear">可用企信账号、代理商帐号直接登录</span>
+				</div>
+			</div> 
+			<div class="thisnull">
+				<!--空的!!顶替页脚的高度-->
+			</div>
+			<footer class="all_footer"></footer>
+		</div>
+	</body>
+	<script src="js/basicdetails.js" type="text/javascript" charset="utf-8"></script>
+</html>

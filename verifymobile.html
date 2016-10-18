@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>验证手机</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/allkiws.css"/>
+		<link rel="stylesheet" type="text/css" href="css/verifymobile.css"/>
+		<script src="js/jquery-1.9.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/base.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+			<div class="all_bag">
+				<header class="all_header"></header>
+				<div class="all_centent clearfix">
+					<div class="zq_verify_mobile">
+						<input type="text" id="mobile" placeholder="请输入手机号"/><span class="zq_code_get bak" id="check_account">获取验证码</span><span  class="zq_code_mos">60S后重试</span>
+						<span class="zq_mobile_tile" id="is_tel">输入正确的手机号</span>
+						<span class="zq_mobile_tile" id="no_tel">手机号未被注册！</span>
+						<span class="zq_mobile_tile" id="tel_null">请填写手机号！</span>
+					</div>
+					<div class="zq_verify_code">
+						<input type="text" id="code_mose" placeholder="请输验证码"/>
+						<span class="zq_code_tile">验证码不正确</span>
+					</div>
+					<div id ="is_code">
+						<div class="zq_code_Getmose"  href="javascript:;">下一步</div>
+					</div>
+					
+					
+				</div>
+				<div class="thisnull">
+					<!--空的!!顶替页脚的高度-->
+				</div>
+				<footer class="all_footer"></footer>
+			</div>
+	</body>
+	<script src="js/verifymobile.js" type="text/javascript" charset="utf-8"></script>
+</html>

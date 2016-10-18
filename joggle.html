@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>接口说明</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/allkiws.css"/>
+		<link rel="stylesheet" type="text/css" href="css/joggle.css"/>
+		<script src="js/jquery-1.9.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/base.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="all_bag">
+			<header class="all_header"></header>
+			<div class="all_centent clearFloat">
+				<!--左侧内容-->
+				<div class="Jog_left">
+				 	<ul class="Jog_left_con">
+					<!--	<li class="Jog_Lcon_li">
+							<a href="javascript:;">接口名分类一<span></span></a>
+							<ul>
+								<li class="Jog_Lcon_current"><i></i>一个</li>
+								<li><i></i>两个</li>
+							</ul>
+						</li>
+						<li class="Jog_Lcon_li">
+							<a href="javascript:;">接口名分类er<span></span></a>
+							<ul>
+								<li class="Jog_Lcon_current"><i></i>一个</li>
+								<li><i></i>两个</li>
+							</ul>
+						</li>
+						<li class="Jog_Lcon_li">
+							<a href="javascript:;">接口名分类er<span></span></a>
+							<ul>
+								<li class="Jog_Lcon_current"><i></i>一个</li>
+								<li><i></i>两个</li>
+							</ul>
+						</li>-->
+					</ul> 
+				</div>
+				<!--中间右侧内容-->
+				<div class="Jog_Right">
+					<p class="Jog_Right_title"></p>
+					<!--有内容的时候-->
+					<div class="Jog_Right_okcontent">
+						 <!-- <div class="Jog_Right_present">
+							access-token是公众号的全局唯一接口调用凭据，公众号调用各接口时都需要使用access-token。开发者需要进行妥善保存access-token的存储至少要保留512个字符空间。access-token的有效期目前为两个小时，需定时刷新，重复获取将导致上次获取的access-token失效。
+						</div>-->
+						<div class="Jog_Right_content">
+						<!-- 	<ul>
+								<li>1、为了保密appsecrect,第三方需要一个access-token获取和刷新的中控服务器。而其他业务逻辑服务器所使用的access-token均来自于该中控服务器，不应该各自去刷新，否则会造成access-token覆盖而影响业务；</li>
+								<li>2、目前access-token的有效期通过返回的expire-in，来传达，目前是7200秒之内的值，中控服务器需要根据这个有效时间提前去刷新access-token。在刷新过程中，中控服务器对外输出的依然是老access-token，此时公众平台后台会保证在刷新短时间内，新老access-token都可用，这保证了第三方业务的平滑过渡；</li>
+								<li>3、access-token的有效时间可能会在未来有调整，所以中控服务器需要内部定时主动刷新，还需要提供被动刷新access-token的接口，这样便于业务服务器在API调用获知access-token已超时情况下，可出发access-token刷新流程。</li>
+							</ul>
+							<p><span class="blue">下载附件</span></p> -->
+						</div>  
+					</div>
+					
+					<!--未认证页面-->
+					
+					<div class="Jog_Right_nocontent">
+					  <!--   <p>此页面需要认证后才能访问，<span class="blue">前往认证</span></p>
+						<p>暂无内容</p> -->
+					</div>
+				</div>
+			</div>
+			<div class="thisnull">
+				<!--空的!!顶替页脚的高度-->
+			</div>
+			<footer class="all_footer"></footer>
+		</div>
+	</body>
+	<script src="js/joggle.js" type="text/javascript" charset="utf-8"></script>
+</html>

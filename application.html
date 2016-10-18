@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>应用管理</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/allkiws.css"/>
+		<link rel="stylesheet" type="text/css" href="css/application.css"/>
+		<script src="js/jquery-1.9.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/base.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="all_bag">
+			<header class="all_header"></header>
+			<div class="all_centent clearFloat">
+				<div class="zq_centent_left"></div>
+				<!--中间右侧内容-->
+				<div class="Altn_con">
+					<p class="Altn_header">
+						应用管理
+					</p>
+					<p class="Altn_title">
+						<i id="create_num"></i>
+						<span class="Altn_found">创建应用</span>
+					</p>
+					
+					<div class="Altn_center">
+
+						<!--已认证-->
+						<div class="Altn_innercenter">
+							<div class="Altn_inner_header">
+								<span class="Altn_one">应用名称</span>
+								<span class="Altn_two">状态</span>
+								<span class="Altn_three">操作</span>
+							</div>
+							<!-- <ul class="Altn_substance">
+								<li class="Altn_one">CRM系统</li>
+								<li class="Altn_two">审核通过</li>
+								<li class="Altn_three">
+									<span class="Altn_three_use blue">应用信息</span>
+									<span class="Altn_three_edit blue">编辑</span>
+									<span class="Altn_three_referto">提交审核</span>
+									<span class="Altn_three_cause">退回原因</span>
+								</li>
+							</ul>
+							<ul class="Altn_substance">
+								<li class="Altn_one">CRM系统</li>
+								<li class="Altn_two">审核不通过</li>
+								<li class="Altn_three">
+									<span class="Altn_three_use blue">应用信息</span>
+									<span class="Altn_three_edit blue">编辑</span>
+									<span class="Altn_three_referto blue">提交审核</span>
+									<span class="Altn_three_cause blue">退回原因</span>
+								</li>
+							</ul>
+							<ul class="Altn_substance">
+								<li class="Altn_one">CRM系统</li>
+								<li class="Altn_two">审核中</li>
+								<li class="Altn_three">
+									<span class="Altn_three_use blue">应用信息</span>
+									<span class="Altn_three_edit blue">编辑</span>
+									<span class="Altn_three_referto">提交审核</span>
+									<span class="Altn_three_cause">退回原因</span>
+								</li>
+							</ul> -->
+						</div>
+						
+						<!--未认证-->
+						<div class="Altn_unauthorized">
+							<p>未认证的用户无法创建应用，前往<span class="blue">认证</span></p>
+						</div>
+						<!--无内容-->
+						<div class="Altn_nocontent">
+							<p>还没有创建应用，可点击右上角的“创建应用”，添加第一个应用</p>
+						</div>
+					</div>
+					
+					<!--创建应用弹窗-->
+					<div class="Altn_apply">
+						<div class="Altn_apply_header">
+							<span>创建应用</span>
+							<img src="img/picture10.png" alt="" />
+						</div>
+						<div class="Altn_apply_content">
+							<div class="Altn_apply_name">
+								<span>名称</span>
+								<input type="text" id="" value="" />
+								<p>请输入应用名称</p>
+							</div>
+							<div class="Altn_apply_logo">
+								<i>请上传logo图片</i>
+								<span>logo</span>
+							<!-- 	<div class="Altn_apply_logo_btn">
+									<form action="" id="post_party_content_upload"   target='frameFile'  enctype="multipart/form-data" method="post">
+		  								<a href="javascript:;" class="file-style2"><em class="personal_newimg">上传图片</em>
+								    	  <input id="post_party_content_upload_file" type="file" name="file"  onchange="_richText._upload()"/>
+								    	</a> 
+								    </form>
+								</div> -->
+								<!-- <div class="Altn_apply_logo_photo">
+									<div class="Altn_apply_logo_bg"></div>
+									<img src="img/bg01.jpg" alt="" />
+									<div class="Altn_apply_logo_photobtn">
+										<form action="" id="post_party_content_upload"   target='frameFile'  enctype="multipart/form-data" method="post">
+			  								<a href="javascript:;" class="file-style2"><em class="personal_newimg">点击上传图片</em>
+									    	  <input id="post_party_content_upload_file" type="file" name="file"  onchange="_richText._upload()"/>
+									    	</a> 
+									    </form>
+									</div>
+								</div> -->
+								<!-- Altn_apply_logo_btn  Altn_apply_logo_photo-->
+								<div class="Altn_apply_logo_btn">
+									<div class="Altn_apply_logo_bg"></div>
+									<img src="" alt=""  class="Altn_apply_logo_img" />
+									<!-- Altn_apply_logo_photobtn -->
+									<div class="Altn_apply_logo_no">
+										<form action="" id="post_party_content_upload"   target='frameFile'  enctype="multipart/form-data" method="post">
+			  								<a href="javascript:;" class="file-style2"><em class="personal_newimg">上传图片</em>
+									    	  <input id="post_party_content_upload_file" type="file" name="file"  onchange="_richText._upload()"/>
+									    	</a> 
+									    </form>
+									</div>
+								</div>
+							</div>
+							<div class="Altn_apply_access">
+								<p>请输入访问地址</p>
+								<span>访问地址</span>
+								<input type="text" />
+							</div>
+							<div class="Altn_apply_present">
+								<p>请输入详细介绍</p>
+								<span>介绍</span>
+								<textarea name="" id="" cols="30" rows="10"></textarea>
+							</div>
+							<p class="Altn_apply_ok"><em>确定</em></p>
+						</div>
+					</div>
+					<!--提交审核弹窗-->
+					<div class="Altn_referto">
+						<p class="Altn_referto_title">
+							提交审核 
+							<img src="img/picture10.png" alt="" />
+						</p>
+						<p class="Altn_referto_font">是否提交审核？</p>
+						<p class="Altn_referto_fonttwo">提交后企信将在5个工作日内完成审核</p>
+						<p class="Altn_referto_btn">
+							<span class="Altn_referto_sure">确定</span>
+							<span class="Altn_referto_no">取消</span>
+						</p>
+					</div>
+					<!--应用信息弹窗-->
+					<div class="Altn_info">
+						<p class="Altn_info_title">
+							应用信息 
+							<img src="img/picture10.png" alt="" />
+						</p>
+						<p class="Altn_info_font"><span>AppID:</span><i></i></p>
+						<p class="Altn_info_fonttwo"><span>AppSecret:</span><i></i></p>
+						<p class="Altn_info_btn">
+							<span class="Altn_info_sure">确定</span>
+						</p>
+					</div>
+					<!--退回原因弹窗-->
+					<div class="Altn_return">
+						<p class="Altn_return_title">
+							退回原因
+							<img src="img/picture10.png" alt="" />
+						</p>
+						<p class="Altn_return_font"></p><!--退回原因-->
+						<p class="Altn_return_btn">
+							<span class="Altn_return_sure">确定</span>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="thisnull">
+				<!--空的!!顶替页脚的高度-->
+			</div>
+			<footer class="all_footer"></footer>
+		</div>
+	</body>
+	<iframe id='frameFile' name='frameFile' style='display: none;'></iframe>
+	<script src="js/application.js" type="text/javascript" charset="utf-8"></script>
+</html>

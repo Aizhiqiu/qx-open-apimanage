@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>头部</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/allkiws.css"/>
+	</head>
+	<body>
+		<div class="header_box">
+			<ul class="clearfix">
+				<li class="header_left" onclick = "javascript:go_header();"></li>
+				<li class="header_right_certified clearfix" id="noeexit">
+					<span class="all_exit_one">|<p class="all_exit" onclick="javascript:userExit();">退出</p></span>
+					<span class="all_exit_certified exit_certified"><p>未认证</p></span>
+					<span class="user_name"><p id="n_approve"> </p></span>
+				</li>
+				<li class="header_right_certified clearfix" id="islooding">
+					<span class="all_exit_one">|<p class="all_exit" onclick="javascript:userExit();">退出</p></span>
+					<span class="all_exit_certified exit_certified"><p>认证中</p></span>
+					<span class="user_name"><p id="nn_approve"> </p></span>
+				</li>
+				<li class="header_right_certified clearfix" id="isexit">
+					<span class="all_exit_one">|<p class="all_exit" onclick="javascript:userExit();">退出</p></span>
+					<span class="all_exit_certified all_certified"><p>已认证</p></span>
+					<span class="user_name"><p id="y_approve"> </p></span>
+				</li>
+				<li class="header_right_certified clearfix" id="dext_logion">
+					<span class="all_exit_one">|<p class="all_help">使用帮助</p></span>
+					<span class="all_exit_one"><p class="all_registe">立即注册</p></span>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
