@@ -1,0 +1,246 @@
+@charset "utf-8";
+/*头部*/
+.header_box,.footer_box{
+	width: 1200px;
+	height: 70px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.header_box li{
+	display: none;
+}
+.header_box .header_left{
+	display: inline-block;
+	float: left;
+	height: 70px;
+	width: 206px;
+	background: url(../img/logo.png) 0 no-repeat;
+	background-size: 100% 65%;
+	cursor: pointer
+}
+.header_box .header_right_certified{
+	float: right;
+	height: 70px;
+}
+.header_right_certified span{
+	float: right;
+	height: 70px;
+	/*line-height: 70px;*/
+	padding-top: 35px;
+}
+.all_exit_one,.all_exit_certified{
+	margin-left: 14px;
+}
+.all_exit,.all_help,.all_registe{
+	height: 16px;
+	width: 40px;
+	font-size: 12px;
+	line-height: 16px;
+    cursor: pointer;
+    text-align: right;
+    color: #3592e1;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+.all_help,.all_registe{
+	width: 72px;
+}
+.all_exit_certified p{
+	height: 17px;
+	width: 63px;
+	font-size: 12px;
+	line-height: 17px;
+	background: #b0b0b0;
+	color: #FFFFFF;
+	text-align: center;
+	display: inline-block;
+}
+.header_right_certified .user_name{
+	height: 70px;
+	/*line-height: 70px;*/
+	padding-top: 35px;
+	font-size: 12px;
+	color: #4f4f4f;
+}
+.user_name p{
+	height: 17px;
+	line-height: 17px;
+	display: inline-block;
+}
+.all_certified p{
+	background: #00be3c;
+}
+
+/*左侧*/
+.navleft_box{
+	width: 161px;
+	/*border: 1px solid #E5E5E5;*/
+	background: #fff;
+    /*height: 900px;*/
+   	/*border-bottom: 0;*/
+    /*border-top: 0;*/
+}
+.application,.admin_user,.account,.Interface,.help{
+	width: 100%;
+	border-bottom: 1px solid #E5E5E5;
+	padding-bottom: 18px;
+}
+.help{
+	border-bottom:0;
+}
+.div_title{
+	height: 55px;
+	width: 100%;
+	display: inline-block;
+	line-height: 55px;
+	padding-left: 34px;
+	font-size: 12px;
+	color: #7f7f7f;
+	letter-spacing: 2px;
+}
+.div_title span{
+	margin: auto 0;
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	background: url(../img/picture01.png) 0 no-repeat;
+	background-size: 100% 100%;
+	margin-right: 15px;
+    margin-bottom: -3px;
+}
+.admin_user_title span{
+	background: url(../img/picture02.png) 0 no-repeat;
+	background-size: 100% 100%;
+}
+.account_title span{
+	background: url(../img/picture03.png) 0 no-repeat;
+	background-size: 100% 100%;
+}
+.Interface_title span{
+	background: url(../img/picture04.png) 0 no-repeat;
+	background-size: 100% 100%;
+}
+.help_title span{
+	background: url(../img/picture05.png) 0 no-repeat;
+	background-size: 100% 100%;
+}
+.navleft_box li{
+	height: 43px;
+	width: 100%;
+	text-align: center;
+	line-height: 43px;
+	font-size: 12px;
+	color: #3b3b3b;
+	cursor: pointer;
+}
+
+
+/*脚部*/
+.footer_box{
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	line-height: 70px;
+	background: #dedede;
+}
+
+
+
+
+
+
+
+/*框架样式*/
+body{
+	background: #eeeeee;
+}
+.all_bag{
+	position: relative;
+	min-width: 1200px;
+}
+.all_header{
+	width: 100%;
+	height: 71px;
+	background: #FFFFFF;
+	border-bottom: 1px solid #e2e2e2;
+	margin-bottom: 40px;
+}
+.all_footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 70px;
+	width: 100%;
+	background: #dedede;
+}
+.thisnull{
+	height: 70px;
+	width: 100%;
+}
+.all_centent{
+	min-height: 700px;
+	width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	border-left: 0;
+}
+.zq_centent_left{
+	float: left;
+	border: 1px solid #E5E5E5;
+	border-bottom: 0;
+	border-top: 0;
+	height: 100%;
+	
+}
+/*分页*/
+.zq_paging{
+	height: 108px;
+	width: 100%;
+	line-height: 108px;
+	text-align: right;
+	font-size: 12px;
+	color: #757575;
+}
+.zq_paging_num{
+	color: #3c3c3c;
+}
+.zq_paging_down,.zq_paging_up{
+	display: inline-block;
+	height: 35px;
+	width: 35px;
+	margin-right:12px;
+	margin-left: 12px;
+	background: url(../img/picture11.png) 0 no-repeat;
+	background-size: 100% 100%;
+	margin-bottom: -12px;
+}
+.zq_paging_down{
+	background: url(../img/picture12.png) 0 no-repeat;
+	background-size: 100% 100%;
+}
+#zq_paging_val{
+	height: 35px;
+	width: 80px;
+	padding-left: 5px;
+	margin-right: 12px;
+	border: 1px solid #E5E5E5;
+	border-radius: 5px;
+}
+.zq_paging_get{
+	display: inline-block;
+	height: 35px;
+	width: 54px;
+	text-align: center;
+	line-height: 35px;
+	border: 1px solid #E5E5E5;
+	border-radius: 5px;
+}
+/*定义颜色样本*/
+.cor{
+	color: #00be3c;
+}
+.bak{
+	background: #00be3c;
+}

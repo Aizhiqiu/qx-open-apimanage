@@ -1,0 +1,164 @@
+@charset "utf-8";
+.zq_authen{
+	min-height: 642px;
+	margin-left: 163px;
+	position: relative;
+}
+.title{
+	height: 46px;
+	width: 100%;
+	line-height: 45px;
+	padding-left: 22px;
+	color: #3D3D3D;
+	font-size: 12px;
+	border-bottom: 1px solid #e5e5e5;
+	display: inline-block;
+}
+.zq_header{
+	height: 104px;
+	width: 100%;
+	border-bottom: 1px solid #e5e5e5;
+}
+.zq_sign{
+	height: 27px;
+	width: 27px;
+	display: inline-block;
+	background: url(../img/sign.png) 0 no-repeat;
+	background-size: 100% 100%;
+	margin-top: 24px;
+	margin-left: 22px;
+	margin-right: 22px;
+	float: left;
+}
+.zq_sign_title{
+	/*height: 100%;*/
+	min-width: 360px;
+	display: inline-block;
+	line-height: 32px;
+	color: #424141;
+	font-size: 12px;
+	padding-top: 14px;
+	float: left;
+	/*margin-left: 68px;*/
+}
+.text_clo{
+	color: #989898;
+}
+.sign_btn{
+	float: right;
+	margin-right: 54px;
+	height: 100%;
+	line-height: 104px;
+}
+.zq_sign_get{
+	height: 45px;
+	width: 129px;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 12px;
+	line-height: 45px;
+	text-align: center;
+	display: inline-block;
+	}
+.sign_btn span{
+	height: 45px;
+	width: 129px;
+	border: 1px solid #e5e5e5;
+	background: #fff;
+	color: #7e7e7e;
+	font-size: 12px;
+	line-height: 45px;
+	text-align: center;
+	border-radius: 4px;
+	display: inline-block;
+}
+.zq_hidden{
+	display: none;
+}
+.sign_btnOK,.sign_btnNot{
+	display: none;
+}
+.zq_centent_sign{
+	width: 100%;
+	padding: 28px 54px 0 72px;
+	min-height: 200px;
+	
+}
+.zq_pad_sign{
+	height: 46px;
+	width: 100%;
+	line-height: 45px;
+	color: #414141;
+	font-size: 12px;
+	display: inline-block;
+	margin-bottom: 27px;
+}
+.zq_centent_sign p{
+	font-size: 12px;
+	line-height: 26px;
+	margin-bottom: 75px;
+}
+/*弹窗*/
+.zq_alert{
+	height: 254px;
+	width: 522px;
+	border: 1px solid #e5e5e5;
+	background: #fff;
+	z-index: 2;
+	position: absolute;
+	top: 208px;
+	left: 88px;
+	display: none;
+}
+.alert_title{
+	height: 44px;
+	width: 100%;
+	line-height: 44px;
+	border-bottom: 1px solid #e5e5e5;
+	padding-left: 21px;
+	padding-right: 19px;
+	font-size: 12px;
+	color: #7e7e7e;
+	display: inline-block;
+	/*margin-bottom: 26px;*/
+}
+.alert_remove{
+	float: right;
+	height: 13px;
+	width: 14px;
+	display: inline-block;
+	background: url(../img/cancel.png) 0 no-repeat;
+	background-size: 100% 100%;
+	margin-top: 15px;
+}
+.zq_alert_Get{
+	height: 45px;
+	width: 109px;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	line-height: 45px;
+	border-radius: 4px;
+	display: inline-block;
+	margin: 0 auto;
+}
+.zq_alert_btn{
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+}
+.zq_title_sbues{
+	height: 117px;
+	width: 100%;
+	text-align: center;
+	line-height: 117px;
+	font-size: 12px;
+	color: #7e7e7e;
+}
+.zq_alert_btn .bak{
+	margin-right: 124px;
+}
+.zq_get_tow{
+	border: 1px solid #e5e5e5;
+	color: #706f6f;
+}

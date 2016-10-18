@@ -1,0 +1,345 @@
+@charset "utf-8";
+.zq_accoun{
+	min-height: 728px;
+	margin-left: 163px;
+	position: relative;
+}
+.title{
+	height: 46px;
+	width: 100%;
+	line-height: 45px;
+	padding-left: 22px;
+	color: #3D3D3D;
+	font-size: 12px;
+	border-bottom: 1px solid #e5e5e5;
+	display: inline-block;
+}
+.zq_tatle{
+	height: 287px;
+	width: 703px;
+	border: 1px solid #e5e5e5;
+	margin-top: 27px;
+	margin-left: 18px;
+	border-bottom: 0;
+}
+.zq_form{
+	height: 57px;
+	width: 100%;
+	border-bottom: 1px solid #e5e5e5;
+	line-height: 58px;
+}
+.zq_form li{
+	float: left;
+	height: 57px;
+	color: #3D3D3D;
+	font-size: 12px;
+}
+.account_formleft{
+	width: 152px;
+	border-right: 1px solid #e5e5e5;
+	padding-left: 30px;
+}
+.zq_formright{
+	cursor:pointer;
+	width: 549px;
+	text-align: center;
+}
+.zq_formright div:first-child{
+	
+}
+.zq_formright div{
+	float: left;
+	height: 100%;
+	width: 274px;
+}
+.zq_formright div:first-child{
+	width: 275px;
+	border-right: 1px solid #e5e5e5;
+	padding-left: 72px;
+	text-align: left;
+}
+.zq_formright .zq_accoun_modify{
+	padding-top: 4px;
+	line-height: 25px;
+	color: #939393;
+}
+.zq_formright .zq_modify_get{
+	color: #3592e1;
+}
+/*弹窗*/
+.zq_alert{
+	height: 251px;
+	width: 465px;
+	border: 1px solid #e5e5e5;
+	background: #fff;
+	z-index: 2;
+	position: absolute;
+	top: 121px;
+	left: 157px;
+	display: none;
+}
+.alert_title{
+	height: 44px;
+	width: 100%;
+	line-height: 44px;
+	border-bottom: 1px solid #e5e5e5;
+	padding-left: 21px;
+	padding-right: 19px;
+	font-size: 12px;
+	color: #7e7e7e;
+	display: inline-block;
+	margin-bottom: 26px;
+}
+.alert_remove{
+	float: right;
+	height: 13px;
+	width: 14px;
+	display: inline-block;
+	background: url(../img/cancel.png) 0 no-repeat;
+	background-size: 100% 100%;
+	margin-top: 15px;
+}
+.zq_name{
+	display: inline-block;
+	height: 37px;
+	width: 109px;
+	text-align: right;
+	line-height: 37px;
+	color: #424141;
+	font-size: 12px;
+	margin-right: 14px;
+}
+.zq_name_val{
+	height: 37px;
+	width: 278px;
+	border: 1px solid #e5e5e5;
+    padding: 0 10px;
+}
+.zq_name_title{
+	line-height: 41px;
+	display: inline-block;
+	margin-left: 123px;
+	font-size: 12px;
+	color: #ff4444;
+	margin-bottom: 26px;
+}
+.zq_alert_Get{
+	height: 45px;
+	width: 129px;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	line-height: 45px;
+	border-radius: 4px;
+	display: inline-block;
+	margin: 0 auto;
+}
+.zq_alert_btn{
+	width: 100%;
+	text-align: center;
+}
+
+
+/*个人设置*/
+.zq_personal{
+	display: none;
+}
+
+
+
+
+/*2*/
+
+/*弹窗*/
+.all_centent{
+	position: relative;
+}
+.zq_photo_upload{
+	min-height: 716px;
+	width: 620px;
+	position: absolute;
+	left: 168px;
+	top: 0px;
+	float: left;
+	z-index: 2;
+	border: 1px solid #d2d2d2;
+	background: #fff;
+	display: none;
+}
+.zq_upload_title{
+	height: 57px;
+	width: 100%;
+	display: inline-block;
+	color: #565656;
+	font-size: 12px;
+	padding-left: 15px;
+	line-height: 57px;
+	padding-right: 16px;
+}
+.zq_upload_cancel{
+	float: right;
+	width: 14px;
+	height: 13px;
+	display: inline-block;
+	background: url(../img/cancel.png) 0 no-repeat;
+	background-size: 100% 100%;
+	margin-top: 22px;
+}
+.upload_tab{
+	height: 49px;
+	width: 100%;
+	margin-bottom: 21px;
+}
+.upload_tab li{
+	float: left;
+	width: 50%;
+	height: 100%;
+	line-height: 49px;
+	text-align: center;
+	color: #6b6969;
+	font-size: 12px;
+	border-bottom: 1px solid #D2D2D2;
+	border-top: 1px solid #D2D2D2;
+	cursor: pointer;
+}
+.upload_tab_this{
+	border: 0;
+	background: url(../img/picture16.png) 0 no-repeat;
+	background-size: 100% 100%;
+}
+.upload_tab_thto{
+	border: 0;
+	background: url(../img/picture15.png) 0 no-repeat;
+	background-size: 100% 100%;
+}
+.zq_upload_tabto{
+	min-height: 506px;
+	width: 100%;
+	padding: 0 16px;
+}
+
+.show_tasbto{
+	display: inline-block;
+	height: 31px;
+	width: 100%;
+	line-height: 31px;
+	color: #6b6969;
+	font-size: 12px;
+}
+
+.upload_Get{
+	display: inline-block;
+	height: 45px;
+	width: 129px;
+	line-height: 45px;
+	margin-top: 27px;
+	margin-bottom: 18px;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	position: relative;
+}
+#post_party_content_upload_file{
+	position: absolute;
+	left: 0;top: 0;
+	height: 45px;
+	width: 129px;
+	opacity: 0;
+	z-index: 2;
+}
+.zq_tle_show{
+	display: inline-block;
+	height: 64px;
+	line-height: 64px;
+	width: 298px;
+	font-size: 12px;
+	color: #6b6969;
+}
+.zq_tle_showis{
+	width: 240px;
+}
+.zq_upload_photo,.zq_upload_sen{
+	height: 161px;
+	width: 254px;
+	float: left;
+}
+.zq_upload_photo{
+	margin-right: 44px;
+}
+.zq_photo_btn{
+	width: 100%;
+	text-align: center;
+	
+}
+.zq_upload_photoGet{
+	height: 45px;
+	width: 128px;
+	line-height: 45px;
+	text-align: center;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 12px;
+	display: inline-block;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.zq_upload_confirm{
+	padding-left: 146px;
+	padding-top: 89px;
+}
+.zq_add_confirm{
+	margin-left: 10px;
+}
+.zq_upload_confirmpho{
+	margin-left: 10px;
+	margin-top: 24px;
+	margin-bottom: 154px;
+	height: 161px;
+    width: 254px;
+}
+.zq_confirm_get{
+	width: 100%;
+}
+.zq_Get_confirm{
+	height: 45px;
+    width: 128px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+    display: inline-block;
+    margin: 0 auto;
+    /*margin-top: 85px;*/
+}
+.zq_Get_confirm:first-child{
+	margin-right: 40px;
+}
+.zq_confirm_get .zq_cofirm_col{
+	color: #908f8f;
+	border: 1px solid #b5b5b5;
+}
+.upload_Get_thir {
+    background: #6198d8;
+    margin: 0;
+}
+
+.zq_form .zq_carurlGet{
+	color: #3592e1;
+}
+
+
+/*未认证*/
+.Altn_unauthorized,.Altn_nocontent{
+    height: 630px;
+    width: 97%;
+    margin: 0 auto;
+    margin-top: 24px;
+    border: 1px solid #e5e5e5;
+	display: none;
+}
+.Altn_unauthorized p,.Altn_nocontent p{
+	margin-top:155px;
+	text-align: center;
+}

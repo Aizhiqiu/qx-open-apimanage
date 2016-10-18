@@ -1,0 +1,330 @@
+@charset "utf-8";
+.User_con,.Usdes_con{
+	width: 1036px;
+	float:left;
+}
+.User_header,.Usdes_header{
+	height: 46px;
+	width: 100%;
+	padding-left:35px;
+	line-height: 46px;
+	border-bottom:1px solid #e5e5e5;
+}
+.User_center{
+	padding:42px 284px 0 14px ;
+	width: 100%;
+}
+.User_innercenter{
+	width: 100%;
+	border:1px solid #e5e5e5;
+}
+.User_inner_header{
+	height: 42px;
+}
+.User_innercenter ul:last-child li{
+	border-bottom:0 none;
+}
+.User_inner_header span,.User_substance li{
+	float:left;
+	text-align: center;
+	height: 42px;
+	line-height: 42px;
+	display: block;
+	border-right:1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+}
+.User_substance{
+	height: 42px;
+}
+.User_inner_header span:last-child,.User_substance li:last-child{
+	border-right:0 none;
+}
+.User_one{
+	width: 459px;
+}
+.User_two{
+	width: 138px;
+}
+.User_three{
+	width: 139px;
+}
+/*用户详情*/
+.Usdes_search{
+	width: 100%;
+	padding:10px 35px;
+}
+.Usdes_innersearch{
+	width: 314px;
+	height: 36px;
+}
+.Usdes_innersearch input{
+	width: 273px;
+	border:1px solid #e5e5e5;
+	height: 36px;
+	float:left;
+	padding-left:14px;
+}
+.Usdes_innersearch span{
+	display: block;
+	width: 41px;
+	height: 36px;
+	background: url(../img/picture18.png) no-repeat center;
+	-webkit-background-size: 21px 21px;
+	background-size: 21px 21px ;
+	border:1px solid #e5e5e5;
+	border-left:0 none;
+	float: right;
+}
+.Usdes_content{
+	width: 100%;
+	padding:0 86px 0 35px;
+}
+.Usdes_inner_content{
+	width: 100%;
+	height: auto;
+}
+.Usdes_Lcontent,.Usdes_nocentent{
+	width: 620px;
+	float: left;
+	border:1px solid #e5e5e5;
+}
+.Usdes_Lcontent_head{
+	height: 40px;
+	padding-left:14px;
+	background: #f5f5f5;
+}
+.Usdes_Lcontent_head span{
+	float:left;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+}
+.Usdes_headone{
+	width: 18px;
+}
+.Usdes_headone_one{
+	display: block;
+	width: 18px;
+	margin-top:11px;
+	height: 18px;
+	background:#fff url(../img/keynet.png) no-repeat center;
+	-webkit-background-size: 18px 18px;
+	background-size: 18px 18px;;
+}
+
+.Usdes_headone_two{
+	background-image: url(../img/keymetes.png);
+}
+.Usdes_headonet{
+	background-image: url(../img/keymetes.png);
+}
+.Usdes_headtwo{
+	width: 45px;
+	text-align: center;
+}
+.Usdes_Lcontent_head .Usdes_headthree,.Usdes_Lcontent_head .Usdes_headthree_two{
+	background: #fff;
+	margin-left:12px;
+	width: 95px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	margin-top:6px;
+	border:1px solid #e5e5e5;
+	border-radius:5px;
+	cursor: pointer;
+}
+.Usdes_Lcontent_head .Usdes_headthree_two{
+	display: none;
+}
+.Usdes_headfour{
+	width: 17px;
+	margin-left: 10px;
+	position: relative;
+	cursor: pointer;
+}
+.Usdes_headfour i{
+	display: block;
+	width: 17px;
+	margin-top:11px;
+	height: 17px;
+	background: url(../img/picture19.png) no-repeat center;
+	-webkit-background-size: 17px 17px;
+	background-size: 17px 17px;;
+}
+.Usdes_headfour em{
+	display: none;
+    width: 330px;
+    height: 86px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    position: absolute;
+    left: 25px;
+    top: 2px;
+    z-index: 2;
+    padding-left: 10px;
+}
+.Usdes_headfive{
+	color:red;
+	margin-left:17px;
+}	
+.Usdes_table_inner{
+	width: 100%;
+}
+.Usdes_table{
+	height: 91px;
+    width: 100%;
+    padding: 16px 0 16px 14px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.Usdes_table:last-child{
+	border:0 none;
+	padding:16px 0 0 14px;
+}
+.Usdes_table li{
+	float:left;
+	height: 100%;
+	height: 58px;
+}
+.Usdes_tableone{
+	width: 18px;
+	background: url(../img/keynet.png) no-repeat top center;
+	-webkit-background-size: 18px 18px;
+	background-size: 18px 18px;
+}
+.Usdes_tableonetwo{
+	background-image: url(../img/keymetes.png);
+}
+.Usdes_tabletwo{
+	margin-left:11px;
+	width: 58px;
+	background: #ccc;
+}
+.Usdes_tablethree{
+	margin-left:16px;
+	width: 96px;
+}
+.Usdes_tablethree p{
+	height: 21px;
+	cursor: pointer;
+}
+/*.Usdes_table_inner .Usdes_table:nth-child(){
+	border:0 none;
+	padding:16px 0 0 14px;
+}*/
+.zq_paging{
+	padding-right:20px;
+	height: 90px ;
+	line-height: 90px;
+}
+
+
+
+
+/*右侧列表*/
+.Usdes_Rcontent{
+	width: 280px;
+	margin-left:14px;
+	float:right;
+	border:1px solid #e5e5e5;
+}
+.Usdes_Rcontent ul{
+	width: 100%;
+}
+.Usdes_Rcontent li{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-bottom:1px solid #e5e5e5;
+	cursor: pointer;
+}
+.Usdes_Rcontent li:last-child{
+	border-bottom:0 none;
+}
+.Usdes_Rcontent_current{
+	background: #f5f5f5;
+}
+
+/*加入黑名单弹窗*/
+.Usdes_blacklist,.Usdes_shiftout{
+	display: none;
+	width: 330px;
+    height: 200px;
+    background: #fff;
+    position: absolute;
+    top: 274px;
+    left: 50%;
+    margin-left: -212px;
+    border: 1px solid #e5e5e5;
+    padding: 16px 46px 0;
+}
+.Usdes_blacklist_head{
+	height: 52px;
+	text-align: center;
+}
+.Usdes_blacklist_text,.Usdes_blacklist_font{
+	display: block;
+	width: 100%;
+	height: 28px;
+}
+.Usdes_blacklist_btn,.Usdes_shiftout_btn{
+	width: 100%;
+	height: 40px;
+	margin-top:20px;
+}
+.Usdes_blacklist_btn span,.Usdes_shiftout_btn span{
+	width: 109px;
+	height: 40px;
+	display: block;
+	border-radius:5px;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+}
+.Usdes_blacklist_Lbtn,.Usdes_shiftout_Lbtn{
+	background: #00BE3C;
+	float: left;
+	color:#fff;
+}
+.Usdes_blacklist_Rbtn,.Usdes_shiftout_Rbtn{
+	float: right;
+	border:1px solid #e5e5e5;
+}
+/*移出黑名单弹窗*/
+.Usdes_shiftout{
+	height: 162px;
+}
+.Usdes_shiftout_title{
+	height: 50px;
+	line-height: 50px;
+}
+/*无内容*/
+.Usdes_nocentent{
+	height: 540px;
+}
+.Usdes_nocentent_title{
+	height: 40px;
+    padding-left: 14px;
+    background: #f5f5f5;
+    line-height: 40px;
+}
+.Usdes_nocentent_font{
+	text-align: center;
+	margin-top:148px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,170 @@
+@charset "utf-8";
+.all_centent{
+	padding-top: 92px;
+	position: relative;
+}
+.zq_verify_mobile,.zq_verify_code{
+	margin: 0 auto;
+	height: 45px;
+	width: 315px;
+	margin-bottom: 22px;
+	position: relative;
+}
+#mobile{
+	height: 45px;
+	width: 223px;
+	padding-left: 10px;
+	border: 1px solid #c9c9c9;
+	margin-right: 5px;
+	
+}
+.zq_mobile_tile,.zq_code_tile,.zq_password_tile,.zq_password_tow{
+	display: inline-block;
+	position: absolute;
+	right: -122px;
+	top: 0px;
+	line-height: 45px;
+	color: #f24848;
+	font-size: 12px;
+}
+.zq_mobile_tile{
+	display: none;
+}
+.zq_code_tile{
+	right: -98px;
+	display: none;
+}
+.zq_password_tile{
+	right: -174px;
+	display: none;
+}
+.zq_password_tow{
+	right: -136px;
+	display: none;
+}
+.zq_code_get{
+	display: inline-block;
+	width: 86px;
+	height: 45px;
+	line-height: 45px;
+	color: #706f6f;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	cursor: pointer;
+	/*display: none;*/
+}
+/*获取验证码之后的重试*/
+.zq_code_mos{
+	display: inline-block;
+	width: 86px;
+	height: 45px;
+	line-height: 45px;
+	color: #706f6f;
+	text-align: center;
+	font-size: 12px;
+	background: #b9b9b9;
+	color: #fff;
+	border: 1px solid #c9c9c9;
+	display: none;
+}
+#code_mose{
+	height: 45px;
+	width: 315px;
+	border: 1px solid #c9c9c9;
+	padding-left: 10px;
+}
+.zq_verify_code{
+	margin-bottom: 46px;
+}
+.zq_code_Getmose,.zq_reset_Getmose{
+	height: 45px;
+	width: 130px;
+	background: #b9b9b9;
+	color: #fff;
+	margin: 0 auto;
+	line-height: 45px;
+	text-align: center;
+	font-size: 14px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+/*输入验证码之后的下一步的状态*/
+.zq_code_Getmensi{
+	background: #00be3c;
+	color: #fff;
+}
+
+#reset_key,#reset_key_tou{
+	height: 45px;
+	width: 315px;
+	border: 1px solid #c9c9c9;
+	padding-left: 10px;
+}
+.zq_reset_key{
+	margin-bottom: 22px;
+}
+.zq_reset_keytow{
+	margin-bottom: 38px;
+}
+/*两遍密码正确，确定按钮添加这个样式*/
+.zq_reset_Getmensi{
+	background: #00be3c;
+	color: #fff;
+}
+/*修改密码成功之后的弹窗*/
+.zq_alert{
+	height: 195px;
+	width: 315px;
+	position: absolute;
+	top: 150px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	background: #FFF;
+	border: 1px solid #c9c9c9;
+	display: none;
+}
+.zq_alert_remove{
+	height: 35px;
+	width: 100%;
+	display: inline-block;
+	text-align: right;
+	padding: 0 12px;
+	line-height: 35px;
+	border-bottom:  1px solid #c9c9c9;
+	margin-bottom: 38px;
+}
+.zq_alert_remove a{
+	height: 13px;
+	width: 13px;
+	display: inline-block;
+	background: url(../img/cancel.png) 0 no-repeat;
+	background-size: 100% 100%;
+	margin-bottom: -2px;
+}
+.zq_disp_title{
+	height: 20px;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	line-height: 20px;
+	color: #232323;
+	font-size: 14px;
+	margin-bottom: 44px;
+}
+.zq_keyOk_get{
+	height: 40px;
+	width: 100%;
+	text-align: center;
+}
+.zq_keyOk_get a{
+	height: 40px;
+	width: 110px;
+	border-radius: 4px;
+	color: #fff;
+	background: #00be3c;
+	font-size: 14px;
+	line-height: 40px;
+	display: inline-block;
+}

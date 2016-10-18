@@ -1,0 +1,371 @@
+.zq_basic_title{
+	height: 50px;
+	width: 100%;
+	border:  1px solid #f2f2f2;
+	border-top: 0;
+	margin-bottom: 40px;
+}
+.zq_basic_title li{
+	height: 100%;
+	width: 399px;
+	float: left;
+	line-height: 49px;
+	text-align: center;
+	color: #7f7f7f;
+	font-size: 14px;
+}
+.zq_basic_title .zq_basic_this{
+	background: url(../img/picture14.png) 0 no-repeat;
+	background-size: 100% 100%;
+	color: #fff;
+}
+.zq_addmessage{
+	/*height: 622px;*/
+	width: 610px;
+	margin-left: 168px;
+	padding-top: 28px;
+	position: relative;
+}
+.zq_add_tile{
+	font-size: 14px;
+	color: #565656;
+}
+.zq_add_tab{
+	margin-top: 23px;
+	height: 45px;
+	width: 314px;
+	margin-bottom: 20px;
+}
+.zq_add_tab li{
+	float: left;
+	height: 45px;
+	width: 157px;
+	text-align: center;
+	line-height: 45px;
+	border: 1px solid #d2d2d2;
+	color: #908f8f;
+	font-size: 12px;
+	cursor: pointer;
+}
+.zq_add_tab .add_tab_leti{
+	border: 1px solid #908F8F;
+	background: #908F8F;
+	color: #fff;
+}
+.zq_add_show{
+	height: 31px;
+	line-height: 31px;
+	font-size: 12px;
+	color: #7f7f7f;
+}
+.zq_title_show{
+	display: inline-block;
+	margin-top: 24px;
+	margin-bottom: 26px;
+}
+.zq_user_show{
+	height: 45px;
+	width: 141px;
+	display: inline-block;
+	margin-right: 31px;
+	margin-bottom: 19px;
+	color: #bab9b9;
+	font-size: 12px;
+	text-align: right;
+	line-height: 45px;
+}
+.zq_user_input{
+	width: 314px;
+	height: 45px;
+	border: 1px solid #d2d2d2;
+	padding-left: 10px;
+}
+.zq_show_title,#third_error_msg,#zq_error_msg,.zq_show_titletow,.zq_show_titlephoto{
+	height: 45px;
+	width: 280px;
+	/*text-align: right;*/
+	line-height: 45px;
+	color: #ed5a5a;
+	font-size: 12px;
+	display: inline-block;
+	position: absolute;
+    top: 267px;
+    left: 540px;
+}
+#zq_error_msg,.zq_show_titletow{
+    top: 332px;
+}
+.zq_show_titlephoto{
+	top: 492px;
+    left: 358px;
+}
+.zq_user_showtim{
+	margin-top: 30px;
+	margin-bottom: 106px;
+}
+.zq_photo_get{
+	height: 45px;
+	width: 129px;
+	background: #6198d8;
+	color: #fff;
+	font-size: 12px;
+	border-radius: 5px;
+	line-height: 45px;
+	text-align: center;
+	display: inline-block;	
+}
+.zq_btn_get{
+	height: 45px;
+	width: 486px;
+    padding-left: 172px;
+    margin-bottom: 220px;
+}
+.zq_btn_get a{
+	height: 45px;
+	width: 129px;
+	text-align: center;
+	line-height: 45px;
+	color: #fff;
+	font-size: 12px;
+	display: inline-block;
+	border-radius: 5px;
+}
+.zq_add_skip{
+	margin-right: 56px;
+}
+/*弹窗*/
+.all_centent{
+	position: relative;
+}
+.zq_photo_upload{
+	/*min-height: 716px;*/
+	width: 620px;
+	position: absolute;
+	left: 168px;
+	top: 207px;
+	float: left;
+	z-index: 2;
+	border: 1px solid #d2d2d2;
+	background: #fff;
+	display: none;
+}
+.zq_upload_title{
+	height: 57px;
+	width: 100%;
+	display: inline-block;
+	color: #565656;
+	font-size: 12px;
+	padding-left: 15px;
+	line-height: 57px;
+	padding-right: 16px;
+	border-bottom: 1px solid #D2D2D2;
+}
+.zq_upload_cancel{
+	float: right;
+	width: 14px;
+	height: 13px;
+	display: inline-block;
+	background: url(../img/cancel.png) 0 no-repeat;
+	background-size: 100% 100%;
+	margin-top: 22px;
+}
+.upload_tab{
+	height: 49px;
+	width: 100%;
+	margin-bottom: 21px;
+	display: none;
+}
+.upload_tab li{
+	float: left;
+	width: 50%;
+	height: 100%;
+	line-height: 49px;
+	text-align: center;
+	color: #6b6969;
+	font-size: 12px;
+	border-bottom: 1px solid #D2D2D2;
+	border-top: 1px solid #D2D2D2;
+	cursor: pointer;
+}
+.upload_tab_this{
+	border: 0;
+	background: url(../img/picture16.png) 0 no-repeat;
+	background-size: 100% 100%;
+}
+.upload_tab_thto{
+	border: 0;
+	background: url(../img/picture15.png) 0 no-repeat;
+	background-size: 100% 100%;
+}
+.zq_upload_tabto{
+	min-height: 506px;
+	width: 100%;
+	padding: 0 16px;
+}
+
+.show_tasbto{
+	display: inline-block;
+	height: 31px;
+	width: 100%;
+	line-height: 31px;
+	color: #6b6969;
+	font-size: 12px;
+}
+
+.upload_Get{
+	display: inline-block;
+	height: 45px;
+	width: 129px;
+	line-height: 45px;
+	margin-top: 27px;
+	margin-bottom: -4px;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	position: relative;
+	background: #6198d8;
+}
+#post_party_content_upload_file{
+	position: absolute;
+	left: 0;top: 0;
+	height: 45px;
+	width: 129px;
+	opacity: 0;
+	z-index: 2;
+}
+.zq_tle_show{
+	display: inline-block;
+	height: 64px;
+	line-height: 64px;
+	width: 298px;
+	font-size: 12px;
+	color: #6b6969;
+}
+.zq_tle_showis{
+	width: 240px;
+}
+.zq_upload_photo,.zq_upload_sen{
+	height: 161px;
+	width: 254px;
+	float: left;
+}
+.zq_upload_photo{
+	margin-right: 44px;
+}
+.zq_photo_btn{
+	width: 100%;
+	text-align: center;
+	
+}
+.zq_upload_photoGet{
+	height: 45px;
+	width: 128px;
+	line-height: 45px;
+	text-align: center;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 12px;
+	display: inline-block;
+	margin: 0 auto;
+	margin-top: 85px;
+}
+.zq_upload_confirm{
+	padding-left: 146px;
+	padding-top: 89px;
+}
+.zq_add_confirm{
+	margin-left: 10px;
+}
+.zq_upload_confirmpho{
+	margin-left: 10px;
+	margin-top: 24px;
+	margin-bottom: 154px;
+	height: 161px;
+    width: 254px;
+}
+.zq_confirm_get{
+	width: 100%;
+}
+.zq_Get_confirm{
+	height: 45px;
+    width: 128px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+.zq_Get_confirm:first-child{
+	margin-right: 40px;
+}
+.zq_confirm_get .zq_cofirm_col{
+	color: #908f8f;
+	border: 1px solid #b5b5b5;
+}
+/*上位企信用户*/
+
+
+/*下为第三方开发着*/
+.upload_Get_thir{
+	background: #6198d8;
+	margin-bottom: -4px;
+    margin-top: 18px;
+}
+.zq_upload_thirphoto{
+	width: 552px;
+	height: 418px;
+	margin-left: 15px;
+}
+.zq_btn_getthir{
+    margin-bottom: 280px;
+}
+.zq_tle_showthir{
+    height: 45px;
+    line-height: 45px;
+}
+.zq_thir_photoGet{
+ 	margin-top: 20px;
+ 	margin-bottom: 10px; 
+}
+.zq_thir_tabto{
+	padding-left: 15px;
+	padding-top: 31px;
+}
+.zq_thir_tabto img{
+	width: 550px;
+	height: 418px;
+	margin: 0;
+	margin-top: 23px;
+	margin-bottom: 92px;
+}
+.zq_confirm_thir{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.upload_tab_thes{
+	background: url(../img/picture15.png) 0 no-repeat;
+    background-size: 100% 100%;
+}
+.zq_photo_shase{
+	margin-bottom: 40px;
+}
+
+/*是否审核*/
+.zq_tication{
+	height: 45px;
+	line-height: 45px;
+    font-size: 14px;
+    color: #565656;
+    display: inline-block;
+    padding-left: 30px;
+    margin-right: 30px;
+    background: url(../img/inthisok.png) 3px 15px no-repeat;
+    cursor: pointer;
+}
+.zq_tication_tow{
+	background: url(../img/inthisnot.png) 3px 15px no-repeat;
+}

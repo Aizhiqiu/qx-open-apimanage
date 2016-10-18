@@ -1,0 +1,257 @@
+@charset "utf-8";
+body{
+	background: #fff;
+}
+.login_title{
+	height: 462px;
+	width: 100%;
+	background: url(../img/bg01.jpg) 0 no-repeat;
+	background-size: 100% 100%;
+}
+.all_header{
+	margin: 0;
+}
+.login_centent{
+	width: 1200px;
+	height: 462px;
+	margin: 0 auto;
+	padding-top: 75px;
+}
+.this_login{
+	/*height: 270px;*/
+	width: 387px;
+	float: right;
+	background: #FFFFFF;
+	border-radius: 5px;
+	padding-left: 35px;
+	padding-right: 36px;
+}
+.title_meate{
+	height: 60px;
+	width: 100%;
+	padding-top: 23px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	color: #393939;
+    letter-spacing: 2px;
+}
+.register_get{
+	font-size: 16px;
+	float: right;
+	color: #3592e1;
+	display: inline-block;
+	height: 16px;
+	padding-top: 8px;
+}
+.login_texts{
+	height: 91px;
+	width: 100%;
+	border: 1px solid #e5e5e5;
+	
+}
+.login_texts li{
+	height: 45px;
+	padding-left: 16px;
+	line-height: 42px;
+	width: 100%;
+}
+.login_texts li span{
+	height: 18px;
+	width: 15px;
+	display: inline-block;
+	background: url(../img/picture06.jpg) 0 no-repeat;
+	background-size: 100% 100%;
+    margin-bottom: -4px;
+}
+.login_texts .login_key span{
+	background: url(../img/picture07.jpg) 0 no-repeat;
+	background-size: 100% 100%;
+}
+.login_texts li input{
+	height: 40px;
+	width: 280px;
+	padding-left: 25px;
+}
+.login_name{
+	height: 46px;
+	border-bottom: 1px solid #E5E5E5;
+}
+.key_metes{
+	height: 41px;
+	width: auto;
+	font-size: 12px;
+	color: #212121;
+	line-height: 40px;
+	margin-bottom: 11px;
+}
+
+/*选中未选中*/
+
+
+.key_metes span{
+	height: 15px;
+	width: 15px;
+	display: inline-block;
+	margin-right: 10px;
+	background: url(../img/keynet.png) 0 no-repeat;
+	background-size: 100% 100%;
+	margin-bottom: -3px;
+	cursor: pointer;
+}
+/*记住密码的状态*/
+.key_metes .get_key{
+	background: url(../img/keymetes.png) 0 no-repeat;
+	background-size: 100% 100%;
+}
+.key_back{
+	font-size: 12px;
+	color: #3592e1;
+	float: right;
+	display: inline-block;
+}
+.login_get{
+	height: 35px;
+	width: 122px;
+	display: inline-block;
+	border-radius: 4px;
+	font-size:12px ;
+	line-height: 35px;
+	text-align: center;
+	margin-bottom: 32px;
+	color: #fff !important
+}
+.bac_test{
+	width: 1200px;
+	height: 509px;
+	margin: 0 auto;
+	border-top: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
+	padding-top: 92px;
+	
+}
+.bac_logo{
+	float: left;
+	height: 106px;
+	width: 106px;
+	background: url(../img/picture08.png) 0 no-repeat;
+	background-size: 100% 100%;
+	margin-right: 28px;
+	margin-bottom: 96px;
+}
+.zq_textsfan{
+	float: left;
+	height: 106px;
+	width: 1065px;
+	color: #393939;
+	font-size: 20px;
+}
+.zq_textsfan span{
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.zq_textsfan p{
+	text-indent: 46px;
+	font-size: 14px;
+	color: #7b7a7a;
+	line-height: 32px;
+}
+.zq_title_box{
+	float: left;
+	width: 100%;
+}
+.zq_title_hehr{
+	font-size: 20px;
+	color: #393939;
+	display: inline-block;
+	margin-bottom: 36px;
+}
+.zq_dollop{
+	width: 100%;
+	height: 54px;
+}
+.zq_dollop li{
+	float: left;
+	height: 54px;
+	text-align: center;
+	line-height: 54px;
+}
+.dollop_wid{
+	width: 206px;
+	color: #fff;
+	font-size: 16px;
+}
+.dollop_bak1{
+	background: #f7b668;
+}
+.dollop_bak2{
+	background: #6198d8;
+}
+.dollop_bak3{
+	background: #00be3c;
+}
+.dollop_wit{
+	width: 291px;
+}
+.dollop_wit span{
+	height: 33px;
+	width: 91px;
+	display: inline-block;
+	background: url(../img/picture09.png) 0 no-repeat;
+	background-size: 100% 100%;
+    margin-top: 10px;
+}
+.Abbreviated{
+	height: 560px;
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 56px;
+	margin-bottom: 60px;
+}
+.Abbreviated ul{
+	width: 100%;
+	height: 197px;
+}
+.Abbreviated li{
+	height: 197px;
+	width: 352px;
+	float: left;
+	position: relative;
+}
+.Abbreviated_img img{
+	height: 100%;
+	width: 100%;
+}
+.Abbreviated_img_tie{
+	height: 34px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: #FFFFFF;
+	line-height: 34px;
+	padding-left: 18px;
+	z-index: 2;
+}
+.ecgiav{
+	filter:alpha(opacity=50); 
+	-moz-opacity:0.5; 
+	opacity:0.5;z-index: 1;
+	background: #000000;
+}
+.Abbreviated .Abbreviated_img li:first-child{
+	margin-right: 72px;
+}
+.Abbreviated .Abbreviated_img li:last-child{
+	margin-left: 72px;
+}
+.bach_img{
+	margin-bottom: 56px;
+}
+
+.title_red{
+	color: #f24848;
+	font-size: 12px;
+	line-height: 34px;
+    padding-left: 0px;
+}
+

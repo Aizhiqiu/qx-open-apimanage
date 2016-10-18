@@ -1,0 +1,67 @@
+@charset "utf-8";
+.zq_logged{
+	width: 1037px;
+	margin-left: 161px;
+    min-height: 698px;
+    padding: 0 14px;
+}
+.logged_title{
+	height: 44px;
+	width: 100%;
+	border-left: 1px solid #E5E5E5;
+	border-right: 1px solid #E5E5E5;
+	border-bottom: 1px solid #E5E5E5;
+	background: #fdfdfd;
+	line-height: 43px;
+	color: #3d3d3d;
+	font-size: 12px;
+	padding-left: 19px;
+}
+.zq_text_entry{
+	width: 100%;
+	border-left: 1px solid #E5E5E5;
+	border-right: 1px solid #E5E5E5;
+	border-bottom: 1px solid #E5E5E5;
+	min-height: 544px;
+}
+.zq_text_entry li{
+	min-height: 45px;
+	width: 100%;
+	padding-left: 19px;
+	color: #3d3d3d;
+	font-size: 12px;
+	line-height: 44px;
+	border-bottom: 1px solid #E5E5E5;
+	cursor: pointer;
+}
+.zq_entry_none span:first-child{
+	padding-right: 38px;
+	background: url(../img/indexnew.png) right 2px no-repeat;
+}
+.zq_entry_right{
+	float: right;
+	margin-right: 24px;
+	height: 44px;
+	color: #3d3d3d;
+	font-size: 12px;
+	line-height: 44px;
+}
+.zq_entry_none .zq_entry_right span{
+	height: 7px;
+    width: 17px;
+    padding: 0;
+    background: url(../img/indexnav1.png) 0 no-repeat;
+    background-size: 98% 85%;
+    display: inline-block;
+    margin: 0 0 0 5px;
+}
+.zq_entry_tentext{
+	display: none;
+	width: 100%;
+	padding: 0 30px;
+	text-indent: 46px;
+	line-height: 30px;
+}
+.zq_entry_bloak .zq_entry_tentext{
+	display: block;
+}

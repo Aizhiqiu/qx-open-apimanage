@@ -1,0 +1,479 @@
+@charset "utf-8";
+.Altn_con{
+	width: 1036px;
+	float:left;
+}
+.Altn_header{
+	height: 46px;
+	width: 100%;
+	padding-left:35px;
+	line-height: 46px;
+	border-bottom:1px solid #e5e5e5;
+}
+.Altn_title{
+	width: 100%;
+	padding:0 65px 0 35px;
+	height: 93px;
+	line-height: 93px;
+}
+.Altn_title i{
+	color:#949494;
+}
+.Altn_title span{
+	margin-top:31.5px;
+	float:right;
+	display: block;
+	border-radius:5px;
+	text-align: center;
+	height: 30px;
+	width: 80px;
+	line-height: 30px;
+}
+/*已认证或者无内容可点击*/
+.Altn_title .Altn_found{
+	color:#fff;
+	border:1px solid #00be3c;
+	background: #00be3c;
+	cursor: pointer;
+	display: none;
+}
+/*未认证不可点击*/
+.Altn_found_two{
+	border:1px solid #e5e5e5;
+}
+/*已认证内容部分*/
+.Altn_center{
+	padding:0 14px 0;
+	width: 100%;
+}
+.Altn_innercenter{
+	width: 100%;
+	border:1px solid #e5e5e5;
+	display: none;
+}
+.Altn_inner_header{
+	height: 42px;
+}
+.Altn_innercenter ul:last-child li{
+	border-bottom:0 none;
+}
+.Altn_inner_header span,.Altn_substance li{
+	float:left;
+	text-align: center;
+	height: 42px;
+	line-height: 42px;
+	display: block;
+	border-right:1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+}
+.Altn_inner_header span:last-child,.Altn_substance li:last-child{
+	border-right:0 none;
+}
+.Altn_substance{
+	height: 42px;
+}
+.Altn_one{
+	width: 459px;
+}
+.Altn_two{
+	width: 137px;
+}
+.Altn_three{
+	width: 410px;
+}
+.Altn_three span{
+	margin-right:40px;
+}
+.Altn_three_use{
+	margin-left: 40px;
+}
+/*未认证*/
+.Altn_unauthorized,.Altn_nocontent{
+	height: 534px;
+	width: 100%;
+	border:1px solid #e5e5e5;
+	display: none;
+}
+.Altn_unauthorized p,.Altn_nocontent p{
+	margin-top:155px;
+	text-align: center;
+}
+/*创建应用弹窗*/
+.Altn_apply{
+	height: 666px;
+    width: 570px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    z-index: 2;
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    margin-left: -285px;
+}
+.Altn_apply_header{
+	padding-right:10px;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+}
+.Altn_apply_header img{
+	float: right;
+	width: 13px;
+	height: 17px;
+	margin-top:11px;
+	cursor: pointer;
+}
+.Altn_apply{
+	display: none;
+}
+.Altn_apply span{
+	width: 103px;
+	height: 40px;
+	line-height: 40px;
+	text-align: right;
+	float: left;
+}
+.Altn_apply_content{
+	padding:25px 0 0 ;
+	height: 576px;
+	width: 100%;
+	border-top:1px solid #e5e5e5;
+}
+.Altn_apply_logo,.Altn_apply_access,.Altn_apply_present,.Altn_apply_ok{
+	margin-top:30px;
+	width: 100%;
+	height: 40px;
+	position: relative;
+}
+.Altn_apply_logo i{
+	color:red;
+	position: absolute;
+	left: 268px;
+    top: 13px;
+    display: none;
+}
+.Altn_apply_logo_two{
+	height: 110px;
+}
+.Altn_apply_present{
+	height: 230px;
+}
+.Altn_apply_name{
+	position: relative;
+	width: 100%;
+	height: 40px;
+}
+.Altn_apply_logo_btn,.Altn_apply_name input,.Altn_apply_logo_photo,.Altn_apply_access input,.Altn_apply_present textarea{
+	float: left;
+	margin-left:27px;
+}
+.Altn_apply_name input,.Altn_apply_access input{
+	width: 374px;
+	height: 40px;
+	padding-left:20px;
+	border:1px solid #e5e5e5;
+}
+.Altn_apply_name p,.Altn_apply_access p,.Altn_apply_present p{
+	position: absolute;
+    bottom: -22px;
+    color: red;
+    left: 130px;
+    display: none;
+}
+.Altn_apply_logo_btn{
+	width: 127px;
+    height: 41px;
+    line-height: 41px;
+    text-align: center;
+}
+.Altn_apply_logo_btn .file-style2 {
+    width: 127px;
+    height: 41px;
+    line-height: 41px;
+    display: block;
+    border:1px solid #e5e5e5;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+}
+.Altn_apply_logo_btn .file-style2 input {
+    width: 100%;
+    opacity: 0;
+    height:41px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Altn_apply_logo_btn .file-style2 em {
+	 width: 127px;
+    height: 41px;
+    line-height: 41px;
+	display: block;
+}
+/*图片时上传图片*/
+.Altn_apply_logo_photo{
+	width: 110px;
+	height: 110px;
+	border:1px solid #e5e5e5;
+	position: relative;
+}
+.Altn_apply_logo_bg{
+	display: none;
+	width: 109px;
+	height: 30px;
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	bottom:0px;
+	left:0;
+	z-index:1;
+}
+.Altn_apply_logo_img{
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+.Altn_apply_logo_photobtn{
+	display: none;
+	position: absolute;
+	bottom:0px;
+	width: 100%;
+	height:30px ;
+	left:0;
+	z-index:2;
+    cursor: pointer;
+} 
+.Altn_apply_logo_photo .file-style2 {
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+}
+.Altn_apply_logo_photo .file-style2 input{
+    width: 110px;
+    opacity: 0;
+    height:30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+.Altn_apply_logo_photo .file-style2 em {
+	 width: 110px;
+    height: 30px;
+    line-height: 30px;
+    color:#fff;
+	display: block;
+    cursor: pointer;
+}
+.Altn_apply_present textarea{
+	width: 374px;
+	height: 230px;
+	border:1px solid #e5e5e5;
+	padding:10px;
+	text-decoration: 2px;
+	overflow:hidden;
+	resize:none;
+}
+/*确定按钮*/
+.Altn_apply_ok em{
+	display: block;
+	background: #00be3c;
+	text-align: center;
+	color:#fff;
+	width: 128px;
+	height: 40px;
+	line-height: 40px;
+	margin:0 auto;
+	border-radius:5px;
+	cursor: pointer;
+}
+/*提交审核弹窗*/
+.Altn_referto{
+	display: none;
+	width: 518px;
+	height: 250px;
+	border:1px solid #e5e5e5;
+	position: absolute;
+    top: 370px;
+    left: 50%;
+    margin-left: -59px;
+	background: #fff;
+	z-index:1;
+}
+.Altn_referto_title,.Altn_info_title,.Altn_return_title{
+	height: 40px;
+	width: 100%;
+	padding-left:25px;
+	line-height: 40px;
+	border-bottom:1px solid #e5e5e5;
+}
+.Altn_referto_font{
+	height: 66px;
+	width: 100%;
+	text-align: center;
+	line-height: 66px;
+}
+.Altn_referto_fonttwo{
+	width: 100%;
+	text-align: center;
+	height: 72px;
+}
+.Altn_referto_btn{
+	width: 100%;
+	height: 40px;
+}
+.Altn_referto_btn span{
+	display: block;
+	width: 109px;
+	height: 40px;
+	border-radius:5px;
+	float: left;
+	cursor: pointer;
+	text-align: center;
+	line-height: 40px;
+}
+.Altn_referto_sure{
+	margin:0 124px 0 90px;
+	color:#fff;
+	background: #00BE3C;
+}
+.Altn_referto_no{
+	border:1px solid #e5e5e5;
+	background: #fff;
+	
+}
+/*应用信息弹窗*/
+.Altn_info{
+	display: none;
+	width: 518px;
+	border:1px solid #e5e5e5;
+	height: 252px;
+	position: absolute;
+	top: 324px;
+    left: 50%;
+    margin-left: -259px;
+	z-index:1;
+	background: #fff;
+}
+.Altn_info_title,.Altn_return{
+	position: relative;
+}
+.Altn_info_title img,.Altn_return img,.Altn_referto_title img{
+	cursor: pointer;
+	display: block;
+	width: 13px;
+	height: 17px;
+	position: absolute;
+	top:11px;
+	right:10px;
+}
+.Altn_info_font,.Altn_info_fonttwo{
+	width: 100%;
+	margin-top:20px;
+	height: 40px;
+	line-height: 40px;
+}
+.Altn_info_font span,.Altn_info_fonttwo span{
+	width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    float: left;
+}
+.Altn_info_font i,.Altn_info_fonttwo i{
+	margin-left:30px;
+	display: block;
+	width: 366px;
+	float:right;
+	height: 40px;
+}
+.Altn_info_fonttwo{
+	margin-top:0;
+}
+.Altn_info_btn,.Altn_return_btn{
+	margin-top:55px;
+	height: 40px;
+	line-height: 40px;
+}
+.Altn_info_sure,.Altn_return_sure{
+	display: block;
+	height: 40px;
+	width: 109px;
+	text-align: center;
+	background: #00BE3C;
+	line-height: 40px;
+	color:#fff;
+	border-radius: 5px;
+	margin:0 auto;
+	cursor: pointer;
+}
+/*退回原因弹窗*/
+.Altn_return{
+	display: none;
+	width: 518px;
+	height: 252px;
+	border:1px solid #e5e5e5;
+	position:absolute;
+	top:236px;
+	left: 50%;
+	margin-left: -259px;
+	background: #fff;
+}
+.Altn_return_font{
+	height: 116px;
+	line-height: 116px;
+	width: 100%;
+	text-align: center;
+}
+.Altn_return_btn{
+	margin-top:28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
